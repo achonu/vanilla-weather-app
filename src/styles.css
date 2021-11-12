@@ -26,6 +26,10 @@ li {
   line-height: 19px;
 }
 
+li:first-letter {
+  text-transform: capitalize; /*nit working*/
+}
+
 .weather-app {
   max-width: 600px;
   margin: 25px auto;
